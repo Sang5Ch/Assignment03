@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Choi Sangoh's Milestone 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body> 
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Milestone3</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://sang5ch.github.io/Sang5CUS1172/">Assignment01</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://sang5ch.github.io/Milestone2/">Assignment02</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Assignment 03</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    
+    <div class="container" style="margin-top:30px">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>About Me</h2>
+          <h5>Photos of me:</h5>
+          <br>
+          
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://api.army.mil/e2/c/images/2020/11/12/ec875590/size0-full.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.clarksvilleonline.com/wp-content/uploads/2022/04/Blanchfield-Army-Community-Hospital-Solders-to-compete-in-Best-Leader-Competition.jpg" alt="Chicago" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://api.army.mil/e2/c/images/2020/11/12/222912c4/size0-full.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+          <p style="color: rgb(4, 4, 19); background-color: rgb(131, 131, 131); text-align: center; font-size: 24px;">Sangoh Choi</p>
+         
+          <div style="text-align: center; background-color: black; color: white;">
+            <h1>My info</h1>
+            <h3>Age: 34</h3>
+            <h3>Major: Computer Science</h3>
+            <h3>Country of Origin: South Korea</h3>
+            
+          </div>
+
+          <div class="container mt-3">
+            
+           
+            <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Student at SJU">Student</button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" title="I love my mom">Son</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="tooltip" title="C/Capt Choi" >AFROTC Cadet</button>
+            <button type="button" class="btn btn-info"data-bs-toggle="tooltip" title="Sergeant Choi">Army Vet</button>
+            <button type="button" class="btn btn-warning"data-bs-toggle="tooltip" title="South Korea">Asian</button>
+            <button type="button" class="btn btn-danger"data-bs-toggle="tooltip" title="I have a twin">Brother</button>
+            <button type="button" class="btn btn-dark"data-bs-toggle="tooltip" title="I love my niece">Uncle</button>   
+          </div>
+
+
+          
+          <script>
+          // Initialize tooltips
+          var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+          })
+          </script>
+
+
+
+
+          <div class="container mt-3">                         
+            <div class="spinner-grow text-muted"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-grow text-info"></div>
+            <div class="spinner-grow text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-grow text-secondary"></div>
+            <div class="spinner-grow text-dark"></div>
+
+            <div class="spinner-grow text-muted"></div>
+            <div class="spinner-grow text-primary"></div>
+
+            <h1>Education Summary</h1>
+
+          <ul>
+              <li>P.S. 107</li>
+              <li>I.S. 237</li>
+              <li>Francis Lewis High School</li>
+          </ul>
+          <div class="spinner-grow text-muted"></div>
+          <div class="spinner-grow text-primary"></div>
+          <div class="spinner-grow text-success"></div>
+          <div class="spinner-grow text-info"></div>
+          <div class="spinner-grow text-warning"></div>
+          <div class="spinner-grow text-danger"></div>
+          <div class="spinner-grow text-secondary"></div>
+          <div class="spinner-grow text-dark"></div>
+
+          <div class="spinner-grow text-muted"></div>
+          <div class="spinner-grow text-primary"></div>
+          </div>
+<hr/>
+          <p>If you need to search something</p>
+
+          <form action="http://www.google.com/search">
+  
+              <label>Google Search:</label><input name="q"/>
+              <input type="submit"/>
+          
+          </form>
+
+          
+          <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-6">
+          <div class="container mt-3">
+            <h2>Work Experience</h2>           
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Job</th>
+                  <th>Years</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Waiter</td>
+                  <td>2016-2018</td>
+
+                </tr>
+                <tr>
+                  <td>U.S. Army</td>
+                  <td>2019-2023</td>
+
+                </tr>
+                <tr>
+                  <td>AFROTC Cadet</td>
+                  <td>2023-present</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br>
+
+
+          <div class="container mt-3">
+            <h2>Programming Experience</h2>
+            <p>Classes that I took so far in SJU:</p>
+            <div class="alert alert-success">
+              <strong>Fall 2023</strong> CUS1115
+            </div>
+            <div class="alert alert-info">
+              <strong>Spring 2023</strong> CUS 1116
+            </div>
+            <div class="alert alert-warning">
+              <strong>Fall 2024</strong> CUS 1126
+            </div>
+            <div class="alert alert-danger">
+              <strong>Fall 2024</strong> CUS 1172
+            </div>
+            
+          </div>
+          <br>
+
+          <h2>Interests and hobbies:
+          </h2>
+  
+          <ol>
+              
+              <li> Computer </li>
+              <li> Video Games </li>
+              <li> Hiking </li>
+              <li> Coffee </li>
+              <li> Movies</li>
+      
+          </ol>
+          <hr/>
+          <h2>Favorite flims and TV shows:
+          </h2>
+  
+          <ol>
+              
+              <li> Titanic </li>
+              <li> Inception </li>
+              <li> Dark Knight </li>
+              <li> Interstellar </li>
+              <li> The rookie</li>
+      
+          </ol>
+          <hr/>
+
+
+          <h3>Favorite Websites:</h3>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.google.com" style="background-color: black; color:white">Google</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.Youtube.com" style="background-color: red; color:white">YouTube</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://afrotc.info/" style="background-color: blue; color:white">AFROTC Website</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://chatgpt.com/?model=gpt-4" style="background-color: black; color:white">ChatGPT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.ratemyprofessors.com/" style="background-color: rgb(109, 68, 68); color:blue">RateMyProfessors</a>
+            </li>
+          </ul>
+<hr/>
+
+
+
+
+    </div>
+
+
+    
+
+    
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>The Air Force Song</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/V5XbCF5tz64" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+</iframe>
+    </div>
+
+    
+    
+    </body>
+    </html>
+    
